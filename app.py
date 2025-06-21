@@ -2,7 +2,7 @@
 Module for calling the main flask application.
 The application will be only supported with Flask and Gunicorn.
 """
-from flask import Flask, json
+# from flask import Flask, json
 from flasgger import Swagger
 from prometheus_flask_exporter import PrometheusMetrics
 from router.attendance import route as create_record
