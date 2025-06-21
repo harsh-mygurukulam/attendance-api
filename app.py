@@ -23,4 +23,4 @@ app.config['JSON_SORT_KEYS'] = False
 json.provider.DefaultJSONProvider.sort_keys = False
 app.json_encoder = DataclassJSONEncoder
 
-app.register_blueprint(create_record, url_prefix="/api/v1")
+#app.register_blueprint(create_record, url_prefix="/api/v1")
